@@ -12,7 +12,7 @@ An example Braintree integration for Node in the Express framework.
    npm install
    ```
 
-2. Rename the `example.env` file to `.env` and fill in your Braintree API credentials. 
+2. Update the `.env` file with your Braintree API credentials.
    Credentials can be found by navigating to Account > My User > View Authorizations in the Braintree Control Panel. Full instructions can be [found on our support site](https://articles.braintreepayments.com/control-panel/important-gateway-credentials#api-credentials).
 
 3. Start the server:
@@ -20,6 +20,7 @@ An example Braintree integration for Node in the Express framework.
    ```sh
    npm start
    ```
+   
 ## Deploying to Heroku
 
 You can deploy this app directly to Heroku to see the app live. Skip the setup instructions above and click the button below. This will walk you through getting this app up and running on Heroku in minutes.
